@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Header1 />
     <Header />
     <Main />
     <Footer />
@@ -7,6 +8,7 @@
 </template>
 
 <script>
+import Header1 from '@/components/Header1.vue';
 import Header from '@/components/Header.vue';
 import Main from '@/components/Main.vue';
 import Footer from '@/components/Footer.vue';
@@ -14,6 +16,7 @@ import Footer from '@/components/Footer.vue';
 export default {
   name: 'App',
   components: {
+    Header1,
     Header,
     Main,
     Footer,
@@ -26,5 +29,12 @@ export default {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#app {
+  height: 100%;
 }
 </style>
