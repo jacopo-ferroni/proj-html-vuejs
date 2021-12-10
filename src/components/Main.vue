@@ -1,86 +1,156 @@
 <template>
   <div class="main">
-    <div class="new-arrivals">
-        <div class="arrivals-text">
-            <h1>
-                Brand New Arrivals
-            </h1>
-            <span>NEW COLLECTION FROM NEW YORK</span>
-            <div class="button-section">
-                <div class="button">
-                    VIEW ALL
-                </div>
-                <div class="button">
-                    LOOKBOOK
+        <div class="new-arrivals">
+            <div class="arrivals-text">
+                <h1>
+                    Brand New Arrivals
+                </h1>
+                <span>NEW COLLECTION FROM NEW YORK</span>
+                <div class="button-section">
+                    <div class="button">
+                        VIEW ALL
+                    </div>
+                    <div class="button">
+                        LOOKBOOK
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="banner">
-            <div class="demos">
-                <i class="fas fa-tags"></i>
-                <div>Demos</div>
-            </div>
-            <div class="sale">
-                <div class="price">39</div>
-                <div>On Sale</div>
-                <i class="fas fa-dollar-sign"></i>
+            <div class="banner">
+                <div class="demos">
+                    <i class="fas fa-tags"></i>
+                    <div>Demos</div>
+                </div>
+                <div class="sale">
+                    <div class="price">39</div>
+                    <div>On Sale</div>
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="featured">
-        <div class="titleFeatured">
-            <hr size="1">
-            <h1>Featured Products</h1>
-            <hr size="1">
+        <div class="featured">
+            <div class="titleFeatured">
+                <hr size="1">
+                <h1>Featured Products</h1>
+                <hr size="1">
+            </div>
+            <span>Must have products from our top sellers</span>
+            <div class="category-selection">
+                <div class="men">
+                    Men
+                </div>
+                <div class="women">
+                    Women
+                </div>
+                <div class="accessories">
+                    Accesories
+                </div>
+            </div>
+            <div class="men-models">
+                <div class="first-model">
+                    <div class="box-model">
+                        <img src="@/assets/classic-shop/images/black_elegant_leather_jacket-400x520.jpg" alt="">
+                    </div>
+                    <div class="name">Black Leather Jacket</div>
+                    <div class="categories">Men, Jackets, Jeans</div>
+                    <div><div class="firstPrice">$235</div><div class="price">$200</div></div>
+                </div>
+                <div class="second-model">
+                    <div class="box-model">
+                        <img src="@/assets/classic-shop/images/black_leather_suit-400x520.jpg" alt="">
+                    </div>
+                    <div class="name">Black Leather Suit</div>
+                    <div class="categories">Men, Jackets</div>
+                    <div><div class="price">176$</div></div>
+                </div>
+                <div class="third-model">
+                    <div class="box-model">
+                        <img src="@/assets/classic-shop/images/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
+                    </div>
+                    <div class="name">Blue Jacket & Stripe Tee</div>
+                    <div class="categories">Men, Jackets, Suits</div>
+                    <div><div class="price">$580</div></div>
+                </div>
+                <div class="fourth-model">
+                    <div class="box-model">
+                        <img src="@/assets/classic-shop/images/modern_black_leather_suit-400x520.jpg" alt="">
+                    </div>
+                    <div class="name">Modern Black Leather Suit</div>
+                    <div class="categories">Men, Jackets</div>
+                    <div><div class="price">$96</div></div>
+                </div>
+            </div>
         </div>
-        <span>Must have products from our top sellers</span>
-        <div class="category-selection">
-            <div class="men">
-                Men
+        <div class="collection-zone">
+            <div class="collection-first">
+                <h1>Winter Collection</h1>
+                <h3>STYLISH AND WARM</h3>
+                <div class="button-view-more">
+                    VIEW MORE
+                </div>
             </div>
-            <div class="women">
-                Women
+            <div class="collection-second">
+                <h1>Spring Collection</h1>
+                <h3>BRIGHT AND COLORFUL</h3>
+                <div class="button-view-more">
+                    VIEW MORE
+                </div>
             </div>
-            <div class="accessories">
-                Accesories
+            <div class="collection-third">
+                <h1>Autumn Collection</h1>
+                <h3>RICH AND COMFORTABLE</h3>
+                <div class="button-view-more">
+                    VIEW MORE
+                </div>
             </div>
         </div>
-        <div class="men-models">
-            <div class="first-model">
-                <div class="box-model">
-                    <img src="@/assets/classic-shop/images/black_elegant_leather_jacket-400x520.jpg" alt="">
-                </div>
-                <div class="name">Black Leather Jacket</div>
-                <div class="categories">Men, Jackets, Jeans</div>
-                <div><div class="firstPrice">$235</div><div class="price">$200</div></div>
+        <div class="best-seller-zone">
+            <div class="titleBestseller">
+                <hr size="1">
+                <h1>Featured Products</h1>
+                <hr size="1">
             </div>
-            <div class="second-model">
-                <div class="box-model">
-                    <img src="@/assets/classic-shop/images/black_leather_suit-400x520.jpg" alt="">
+            <span>Must have products from our top sellers</span>
+            <div class="carousel">
+                <div class="button-left">
+                    <i class="fas fa-chevron-left"></i>
                 </div>
-                <div class="name">Black Leather Suit</div>
-                <div class="categories">Men, Jackets</div>
-                <div><div class="price">176$</div></div>
-            </div>
-            <div class="third-model">
-                <div class="box-model">
-                    <img src="@/assets/classic-shop/images/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/spring_printed_dress-400x520.jpg" alt="">
                 </div>
-                <div class="name">Blue Jacket & Stripe Tee</div>
-                <div class="categories">Men, Jackets, Suits</div>
-                <div><div class="price">$580</div></div>
-            </div>
-            <div class="fourth-model">
-                <div class="box-model">
-                    <img src="@/assets/classic-shop/images/modern_black_leather_suit-400x520.jpg" alt="">
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/modern_love_tee-400x520.jpg" alt="">
                 </div>
-                <div class="name">Modern Black Leather Suit</div>
-                <div class="categories">Men, Jackets</div>
-                <div><div class="price">$96</div></div>
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/black_leather_jacket-400x520.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/black_elegant_leather_jacket.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/hipster_black_top-400x520.jpg" alt="">
+                </div>
+                <div class="button-right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="information">
+            <div class="info-box-1">
+                <h1>70% Off</h1>
+                <p>Vivamus tempor leo lacus, feugiat un magna aliquam erat.</p>
+                <div class="button-view-more">
+                    VIEW MORE
+                </div>
+            </div>
+            <div class="info-box-2">
+                <h1>Free Shipping</h1>
+                <p>Vivamus tempor leo lacus, feugiat un magna aliquam erat.</p>
+                <div class="button-view-more">
+                    VIEW MORE
+                </div>
+            </div>
+        </div>
   </div>
 </template>
 
@@ -191,7 +261,7 @@ export default {
     }
     .featured {
         width: 1200px;
-        margin: auto;
+        margin: 150px auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -245,7 +315,6 @@ export default {
         }
     }
     .men-models {
-        margin: 50px 0 150px 0;
         display: flex;
         width: 1200px;
 
@@ -289,6 +358,167 @@ export default {
             display: inline-block;
             margin: 10px 10px 10px 0;
             cursor: pointer;
+        }
+    }
+
+    .collection-zone {
+        background-color: green;
+        height: 615px;
+        display: flex;
+        .collection-first {
+            width: calc(100% / 3);
+            height: 100%;
+            background-image: url("../assets/classic-shop/images/winter_collection_bg.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            padding-bottom: 100px;
+            color: white;
+        }
+        .collection-second {
+            width: calc(100% / 3);
+            height: 100%;
+            background-image: url("../assets/classic-shop/images/spring_collection_bg.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            padding-bottom: 100px;
+            color: white;
+        }
+        .collection-third {
+            width: calc(100% / 3);
+            height: 100%;
+            background-image: url("../assets/classic-shop/images/autumn_collection_bg.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            padding-bottom: 100px;
+            color: white;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h3 {
+            font-size: 25px;
+            padding: 10px 0;
+        }
+        .button-view-more {
+            background-color: rgba($color: #ffffff, $alpha: 0.1);
+            padding: 10px 25px;
+            border: 3px solid white;
+            border-radius: 50px;
+            font-size: 13px;
+        }
+    }
+    .best-seller-zone {
+        width: 1200px;
+        margin: 150px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .titleBestseller {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            font-size: 20px;
+            color: #2b2e32;
+            margin-bottom: 20px;
+            hr {
+                width: 30%;
+                color: gray;
+            }
+        }
+        span {
+            color: #2b2e32;
+            font-size: 17px;
+        }
+        .carousel {
+            padding: 30px 0 0 0;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            .button-left {
+                width: 2%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px 15px;
+                background-color: #c1c1c1;
+            }
+            .button-right {
+                width: 2%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px 15px;
+                background-color: #c1c1c1;
+            }
+            .model-box {
+                width: calc(96% / 5);
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .information {
+        height: 550px;
+        background-image: url("../assets/classic-shop/images/bkgd_confetti-compressor.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .info-box-1 {
+            background-image: url(../assets/classic-shop/images/promo_box_1_bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 70%;
+            width: 30%;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 0 0 50px;
+        }
+        .info-box-2 {
+            background-image: url(../assets/classic-shop/images/promo_box_2_bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 70%;
+            width: 30%;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 0 0 50px;
+        }
+        .button-view-more {
+            text-align: center;
+            width: 30%;
+            background-color: rgba($color: #ffffff, $alpha: 0.1);
+            padding: 10px;
+            border: 3px solid white;
+            border-radius: 50px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+        p {
+            width: 45%;
+            padding: 30px 0;
+            line-height: 30px;
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 40px;
         }
     }
 
