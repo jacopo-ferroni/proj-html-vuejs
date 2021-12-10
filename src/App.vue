@@ -33,6 +33,7 @@ export default {
 }
 
 #app {
+  cursor: crosshair;
   height: 100%;
 }
 </style>
