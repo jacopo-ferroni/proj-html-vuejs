@@ -1,5 +1,6 @@
 <template>
   <div class="main">
+
         <div class="new-arrivals">
             <div class="arrivals-text">
                 <h1>
@@ -28,6 +29,7 @@
                 </div>
             </div>
         </div>
+
         <div class="featured">
             <div class="titleFeatured">
                 <hr size="1">
@@ -81,6 +83,7 @@
                 </div>
             </div>
         </div>
+
         <div class="collection-zone">
             <div class="collection-first">
                 <h1>Winter Collection</h1>
@@ -104,10 +107,11 @@
                 </div>
             </div>
         </div>
+
         <div class="best-seller-zone">
             <div class="titleBestseller">
                 <hr size="1">
-                <h1>Featured Products</h1>
+                <h1>Best Seller</h1>
                 <hr size="1">
             </div>
             <span>Must have products from our top sellers</span>
@@ -135,6 +139,7 @@
                 </div>
             </div>
         </div>
+
         <div class="information">
             <div class="info-box-1">
                 <h1>70% Off</h1>
@@ -151,6 +156,49 @@
                 </div>
             </div>
         </div>
+
+        <div class="new-arrivals-zone">
+            <div class="titlenew-arrivals-zone">
+                <hr size="1">
+                <h1>New Arrivals</h1>
+                <hr size="1">
+            </div>
+            <span>Brand new products from top designer</span>
+            <div class="carousel">
+                <div class="button-left">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/black_elegant_leather_jacket.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/hipster_black_top-400x520.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/black_leather_suit-400x520.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/spring_printed_dress-400x520.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="@/assets/classic-shop/images/modern_love_tee-400x520.jpg" alt="">
+                </div>
+                <div class="button-right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials-zone">
+            <img src="@/assets/classic-shop/images/man_testimonial.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt amet molestias, facilis beatae aperiam rerum eaque commodi iusto consequatur eligendi ratione dignissimos, tempora quia porro veritatis tempore, unde nesciunt sapiente?</p>
+            <h4>Darìo Pineda, Theme Fusion</h4>
+            <div class="points">
+                <div class="point"></div>
+                <div class="point1"></div>
+            </div>
+        </div>
+
   </div>
 </template>
 
@@ -409,6 +457,7 @@ export default {
             padding: 10px 0;
         }
         .button-view-more {
+            cursor: pointer;
             background-color: rgba($color: #ffffff, $alpha: 0.1);
             padding: 10px 25px;
             border: 3px solid white;
@@ -451,6 +500,7 @@ export default {
                 align-items: center;
                 padding: 25px 15px;
                 background-color: #c1c1c1;
+                cursor: pointer;
             }
             .button-right {
                 width: 2%;
@@ -459,8 +509,10 @@ export default {
                 align-items: center;
                 padding: 25px 15px;
                 background-color: #c1c1c1;
+                cursor: pointer;
             }
             .model-box {
+                cursor: pointer;
                 width: calc(96% / 5);
                 img {
                     width: 100%;
@@ -519,6 +571,101 @@ export default {
         }
         h1 {
             font-size: 40px;
+        }
+    }
+
+    .new-arrivals-zone {
+        padding: 150px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .titlenew-arrivals-zone {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            justify-content: space-between;
+            font-size: 20px;
+            color: #2b2e32;
+            margin-bottom: 20px;
+            hr {
+                width: 30%;
+                color: gray;
+            }
+        }
+        span {
+            color: #2b2e32;
+            font-size: 17px;
+        }
+        .carousel {
+            padding: 100px 0 0 0;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            .button-left {
+                width: 2%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px 15px;
+                background-color: #c1c1c1;
+                cursor: pointer;
+            }
+            .button-right {
+                width: 2%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px 15px;
+                background-color: #c1c1c1;
+                cursor: pointer;
+            }
+            .model-box {
+                cursor: pointer;
+                width: calc(96% / 5);
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .testimonials-zone {
+        height: 550px;
+        background-image: url("../assets/classic-shop/images/testimonials_home_1_bg.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        p {
+            width: 50%;
+            line-height: 40px;
+            font-size: 19px;
+            text-align: center;
+            margin: 20px;
+        }
+        .points {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .point {
+                height: 15px;
+                width: 15px;
+                background-color: white;
+                margin: 50px 5px 0;
+                border-radius: 50px;
+                border: 1px solid white;
+            }
+            .point1 {
+                height: 15px;
+                width: 15px;
+                background-color: rgba($color: #000000, $alpha: 0.1);
+                margin: 50px 5px 0;
+                border-radius: 50px;
+                border: 1px solid white;
+            }
         }
     }
 

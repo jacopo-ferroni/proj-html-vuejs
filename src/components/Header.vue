@@ -64,6 +64,7 @@ export default {
             display: flex;
             align-items: center;
             img {
+                cursor: pointer;
                 width: 60%;
             }
         }
@@ -72,6 +73,7 @@ export default {
             align-items: center;
             height: 100%;
             .selection {
+                cursor: pointer;
                 padding: 0 20px;
                 font-size: 15px;
                 color: gray;
@@ -89,6 +91,7 @@ export default {
                 }
             }
             .shop-now {
+                cursor: pointer;
                 color: white;
                 background-color: #427ed5;
                 padding: 15px 30px;
@@ -96,6 +99,7 @@ export default {
                 font-size: 13px;
             }
             .search {
+                cursor: pointer;
                 padding: 0 0 0 30px;
             }
         }
