@@ -29,9 +29,7 @@ export default {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Quicksand', sans-serif;
+  font-family: sans-serif;
 }
 
 #app {
