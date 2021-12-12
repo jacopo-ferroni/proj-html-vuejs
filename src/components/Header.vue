@@ -97,6 +97,10 @@ export default {
                 padding: 15px 30px;
                 border-radius: 25px;
                 font-size: 13px;
+                &:hover {
+                    transition: 1s;
+                    background-color: #d48bb8;
+                }
             }
             .search {
                 cursor: pointer;
