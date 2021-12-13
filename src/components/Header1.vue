@@ -34,6 +34,10 @@ export default {
 
 <style scoped lang="scss">
     .headerFirst {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        background-color: white;
         border-top: 3px solid #427ed5;
         border-bottom: 2px solid #f6f6f6;
         height: 55px;
@@ -81,6 +85,9 @@ export default {
                     font-size: 13px;
                     cursor: pointer;
                     color: grey;
+                    i {
+                        margin-left: 5px;
+                    }
                 }
                 .cart {
                     width: 40%;

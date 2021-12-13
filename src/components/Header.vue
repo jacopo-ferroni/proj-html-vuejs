@@ -51,7 +51,8 @@ export default {
 
 <style scoped lang = "scss">
 .header {
-    height: 100px;
+    padding-top: 60px;
+    height: 150px;
     .container {
         width: 1200px;
         height: 100%;

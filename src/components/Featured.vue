@@ -173,9 +173,8 @@ export default {
                 left: 0%;
                 justify-content: center;
                 align-items: center;
-                background: rgb(0,179,255);
-                background: linear-gradient(180deg, rgba(0,179,255,1) 0%, rgba(251,187,255,1) 82%);
-                opacity: 0.5;
+                background: rgb(81,136,213);
+                background: linear-gradient(180deg, rgba(81,136,213,1) 2%, rgba(81,136,213,0.75) 41%, rgba(240,166,210,0.75) 59%, rgba(240,166,210,1) 98%);
                 display: none;
                 .check-box {
                     width: 70px;
